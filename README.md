@@ -32,8 +32,6 @@
   </ul>
 
   <h2>📸 Screenshots</h2>
-  <p>Make sure your images are inside an <code>images</code> folder</p>
-
   <img src="images/homes.png" alt="Home Page" width="400"><br><br>
   <img src="images/services.png" alt="Services Section" width="400"><br><br>
   <img src="images/about.png" alt="About Section" width="400"><br><br>
