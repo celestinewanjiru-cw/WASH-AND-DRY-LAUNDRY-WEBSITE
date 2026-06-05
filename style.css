@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+*{
+  font-family: "Changa One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0ea5a4;
+  --text-color: #1f2937;
+  --secondary-color: #38bdf8;
+  --main-color: #f59e0b;
+  --background: #f8fafc;
+}
+
+/* HEADER */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px;
+}
+
+h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* LOGO SECTION */
+.container-1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.text .main{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text .sub{
+  font-size: 60px;
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0d1426;
+  color: var(--background);
+  padding: 15px;
+}
+
+.navbar a{
+  color: var(--background);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover{
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+/* HOME */
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: var(--primary-color);
+  margin: 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.h2{
+  font-size: 40px;
+  color: var(--secondary-color);
+  border-bottom: 3px solid #000;
+}
+
+.tagline1, .tagline2{
+  margin-top: 10px;
+}
+
+/* RIGHT IMAGE */
+.right-img {
+  width: 300px;
+  height: 300px;
+}
+
+/* BUTTON */
+button,
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background: var(--secondary-color);
+  color: var(--background);
+  border: 3px solid #000;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button a,
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover,
+.button:hover {
+  background: #1e90ff;
+  transform: translateY(-2px);
+}
+
+/* SERVICES */
+#services .container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#services .wash {
+  width: 300px;
+  text-align: center;
+}
+
+#services .wash img {
+  width: 150px;
+}
+
+/* ABOUT */
+.about {
+  padding: 70px 10%;
+  background: var(--primary-color);
+  text-align: center;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.about h2 {
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.about-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  padding: 25px;
+  border-radius: 15px;
+  color: #111;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card1 { background: #f6d365; }
+.card2 { background: #fda085; }
+.card3 { background: #a1c4fd; }
+
+/* CONTACT */
+.contact {
+  padding: 70px 10%;
+  background: #f4f1ea;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #f6d365;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #444;
+}
+
+/* FOOTER */
+.footer {
+  background: #a1c4fd;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #111;
+}
